@@ -38,9 +38,10 @@ enable_language(C ASM)
 add_executable(${CMAKE_PROJECT_NAME}
         Core/Src/PWM.c
         Core/Src/controller.c
-        Core/Inc/controller.h
-        Core/Src/I2C.c
-        Core/Inc/I2C.h
+        Core/Src/softwareI2C.c
+        Core/Src/main.c
+        Core/Src/inv_mpu.c
+        Core/Src/MPU6050.c
 )
 
 # Add STM32CubeMX generated sources
