@@ -99,7 +99,7 @@ int main(void)
   {
     __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,100);
     __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_4,100);
-    HAL_I2C_Master_Transmit()
+
 
   }
     /* USER CODE END WHILE */

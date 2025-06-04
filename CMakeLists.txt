@@ -42,6 +42,7 @@ add_executable(${CMAKE_PROJECT_NAME}
         Core/Src/main.c
         Core/Src/inv_mpu.c
         Core/Src/MPU6050.c
+        Core/Src/rate.c
 )
 
 # Add STM32CubeMX generated sources

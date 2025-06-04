@@ -11,7 +11,7 @@
             }
         },
         {
-            "name": "MYDebug",
+            "name": "Debug",
             "inherits": "default",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": "Debug"
@@ -41,7 +41,7 @@
     ],
     "buildPresets": [
         {
-            "name": "MYDebug",
+            "name": "Debug",
             "configurePreset": "Debug"
         },
         {
